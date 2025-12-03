@@ -6,7 +6,9 @@ import './App.css'
 function HelloReact() {
   return (
     <div>
-      <img src="/src/assets/react.svg" className="logo" alt="React Logo" />
+      <a href="https://react.dev/learn" target="_blank">
+        <img src="/src/assets/react.svg" className="logo" title="About React" alt="React Logo"></img>
+      </a>
       <h1>Hello React World</h1>
       <h2 >Nice to meet you<span className="heart">♥</span></h2>
     </div>
