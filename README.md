@@ -1,16 +1,19 @@
-# React + Vite
+# Hello React World!
+Nice to meet you♥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Descrizione:<h3>
+Create un nuovo progetto React utilizzando Vite: aiutatevi con le slide per ripercorrere i vari passaggi dell'installazione come visti a lezione.
 
-Currently, two official plugins are available:
+Create una nuova app React e assicuratevi che funzioni avviandola da terminale. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Poi pushate tutto. 
 
-## React Compiler
+<h3>Bonus<h3>
+Divertitevi a modificare l'applicazione, rimuovendo parti inutilizzate, aggiungendo un Hello World o quello che preferite ed il relativo CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h3>Consigli<h3>
+Prima di iniziare verificate l'installazione di node ed npm con i rispettivi comandi
+Ricordatevi di verificare in che cartella punta il terminale prima di lanciare un comando.
+Vi consiglio di aggiungere il punto "." quando lanciate lo scaffold.
+Potete aiutarvi anche con la mia repo qui.
+Non aggiungiamo bootstrap, axios o altro
