@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  will-change: filter;
+  transition: filter 600ms;
+  color: #61dafbaa;
+}
+h1:hover {
+  filter: drop-shadow(1px 1px 1px #58c4dc);
+}
+
+.heart {
+  will-change: color;
+  transition: color 600ms;
+  color: white;
+}
+
+.heart:hover {
+  color: red;
+}
