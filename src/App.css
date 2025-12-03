@@ -23,3 +23,33 @@ h1:hover {
 .heart:hover {
   color: red;
 }
+
+.logo {
+  width: 70px;
+  animation: shrinkGlow 0.4s forwards;
+}
+
+.logo:hover {
+  animation: growGlow 0.4s forwards;
+}
+
+@keyframes growGlow {
+  from{
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(88, 196, 220, 0))
+  }  
+  to {
+    transform: scale(1.3);
+    filter: drop-shadow(0 0 12px rgba(88, 196, 220, 0.8))
+  }
+}
+
+@keyframes shrinkGlow {
+  from{
+    transform: scale(1.3);
+    filter: drop-shadow(0 0 12px rgba(88, 196, 220, 0))
+  }  
+  to {
+    transform: scale(1);
+  }
+}
